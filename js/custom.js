@@ -540,7 +540,7 @@ if (!Array.prototype.indexOf) {
 
         /* Instagram Script - change Tag to yours and update ClientId
         ==================================================================================== */
-        var instagramTag = 'wedding'; // Add Instagram Tag here
+        var instagramTag = 'evaamartinseberou'; // Add Instagram Tag here
         var instagramClientId = '630b5c9d2cab44e08fb9d014cf00b2b6'; // Add ClientId here
         var $instagramSection = $('#instagram-section');
         var max_tag_id = false;
@@ -620,7 +620,7 @@ if (!Array.prototype.indexOf) {
         /* Simple Countdown Timer - change belows date to specific one you want.
         ==================================================================================== */
         if($("#countdown").length) {
-            CountDownTimer('12/08/2015 12:00 AM', 'countdown');
+            CountDownTimer('06/11/2016 01:30 PM', 'countdown');
         }
         function CountDownTimer(dt, id) {
             var end = new Date(dt);
@@ -646,10 +646,10 @@ if (!Array.prototype.indexOf) {
                 var minutes = Math.floor((distance % _hour) / _minute);
                 var seconds = Math.floor((distance % _minute) / _second);
 
-                document.getElementById(id).innerHTML = days + '<span>days</span>';
-                document.getElementById(id).innerHTML += hours + '<span>hours</span>';
-                document.getElementById(id).innerHTML += minutes + '<span>minutes</span>';
-                document.getElementById(id).innerHTML += seconds + '<span>seconds</span>';
+                document.getElementById(id).innerHTML = days + '<span>dní</span>';
+                document.getElementById(id).innerHTML += hours + '<span>hodin</span>';
+                document.getElementById(id).innerHTML += minutes + '<span>minut</span>';
+                document.getElementById(id).innerHTML += seconds + '<span>sekund</span>';
             }
 
             timer = setInterval(showRemaining, 1000);

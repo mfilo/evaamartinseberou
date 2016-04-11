@@ -21,7 +21,7 @@ if(isset($_POST['submit'])) {
 	if(!isset($_SESSION['_form_validate']) || !$answer || $_SESSION['_form_validate'] != $answer) {
 		$return['message'] = 'Error validating security question.';
 	} else {
-		$to = 'goca17@gmail.com'; // Change this line to your email.
+		$to = 'mf.filo@gmail.com'; // Change this line to your email.
 		
 		$name = isset($_POST['name']) ? trim($_POST['name']) : '';
 		$email = isset($_POST['email']) ? trim($_POST['email']) : '';
@@ -67,7 +67,7 @@ if(isset($_POST['get_auto_value'])) {
 	$_SESSION['_form_validate'] = $num1 + $num2;
 	
 	$return = array(
-		'data' => encode("What is {$num1} + {$num2}"),
+		'data' => encode("Kolik je {$num1} + {$num2}"),
 		'session' => $_SESSION
 	);
 	

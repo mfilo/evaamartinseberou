@@ -626,6 +626,16 @@ a.button i {
     3.  Hero Section
 ============================================================ */
 
+@font-face {
+    font-family: 'masexy';
+    src: url('../fonts/MA Sexy.ttf');
+}
+
+@font-face {
+    font-family: 'hipsterish';
+    src: url('../fonts/HipsterishFontNormal.ttf');
+}
+
 #logo {
     position: relative;
     height: 80px;
@@ -721,11 +731,48 @@ a.button i {
     position: absolute;
     left: 0;
     right: 0;
+    bottom: 250px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.hero .info .dateQ {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 280px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.hero .info .place {
+    position: absolute;
+    left: 0;
+    right: 0;
     bottom: 180px;
     font-family: 'Playfair Display', serif;
     font-style: italic;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.hero .info .placeQ {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 210px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 24px;
     color: #fff;
     letter-spacing: 1px;
 }
@@ -1232,7 +1279,7 @@ a.button i {
 }
 #couple .images .column > span {
     position: absolute;
-    top: 160px;
+    top: 180px;
     right: 65px;
     z-index: 9;
 }
@@ -1514,6 +1561,8 @@ a.button i {
 }
 .details span.waddress, .quote span.waddress {
     font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
 }
 /* =========================================================== 
     12.  Important People
@@ -1845,8 +1894,16 @@ a.button i {
     color: #fff;
 }
 #contact h3.section-title:before {
-    content: "\e00a";
-    color: #fff;
+    color:;
+    background-color: #fff;
+}
+#contact a:link {
+	color:#FF8C89;
+    background-color: #fff;
+}
+#contact a:visited {
+    color:#FF8C89;
+    background-color: #fff;
 }
 .form label {
     text-transform: uppercase;
@@ -2077,6 +2134,11 @@ footer .logo span {
 }
 footer .info {
     text-align: right;
+    color: #D9C6B1;
+}
+footer .copyright {
+    text-align: right;
+    color: #D9C6B1;
 }
 /* =========================================================== 
     21.  Background Images for Single Posts
@@ -2407,6 +2469,7 @@ span.by {
 .tabable .tabs {
     padding: 0 30px;
     background: #d9c6b1;
+    text-align: center;
 }
 .tabable .tab-content-wrap {
     padding: 20px 30px;

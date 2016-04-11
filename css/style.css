@@ -38,6 +38,11 @@ Version: 1.0
 /* #General
 ================================================== */
 
+@font-face {
+    font-family: 'texgyreadventor';
+    src: url('../fonts/texgyreadventor-regular.otf');
+}
+
 html {
     height: 100%;
 }
@@ -46,7 +51,7 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
-    font: 16px/28px "Quicksand", Helvetica, Arial, sans-serif;
+    font: 16px/28px 'texgyreadventor', serif;
     color: #666666;
     -webkit-font-smoothing: antialiased;
     /* Fix for webkit rendering */
@@ -57,7 +62,7 @@ body {
 ================================================== */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'texgyreadventor', sans-serif;
     color: #FF8C89;
     margin-bottom: 25px;
     font-weight: 700;
@@ -626,15 +631,7 @@ a.button i {
     3.  Hero Section
 ============================================================ */
 
-@font-face {
-    font-family: 'masexy';
-    src: url('../fonts/MA Sexy.ttf');
-}
 
-@font-face {
-    font-family: 'hipsterish';
-    src: url('../fonts/HipsterishFontNormal.ttf');
-}
 
 #logo {
     position: relative;
@@ -1394,6 +1391,7 @@ a.button i {
 .box .box-content {
     position: relative;
     z-index: 9;
+    text-align:justify;
 }
 .box .box-content img, .box .box-content iframe {
     margin-bottom: 20px;

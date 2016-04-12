@@ -736,6 +736,18 @@ a.button i {
     color: #fff;
     letter-spacing: 1px;
 }
+.hero .info .dateQ {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 280px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 1px;
+}
 
 .hero .info .place {
     position: absolute;
@@ -749,7 +761,18 @@ a.button i {
     color: #fff;
     letter-spacing: 1px;
 }
-
+.hero .info .placeQ {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 210px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 1px;
+}
 .hero-inner .mouse {
     display: block;
     position: absolute;
